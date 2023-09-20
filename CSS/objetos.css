@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Days+One&family=Roboto:wght@300;400;700;900&display=swap');
+*{
+    font-family: 'Days One', sans-serif;
+    margin:0;
+    padding:0;
+    color:white;
+}
+body{ 
+    background: rgba(0, 0, 0, 0.871);
+}
+.body{
+    padding:20px;
+}
+body::-webkit-scrollbar{
+    display: none;
+} 
+.main{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:100%;
+    height:100vh;
+    
+}
+.returnButton1{
+    top:1.5%;
+    left:0.59%;
+    position:fixed;
+    z-index:2;
+    text-decoration:none;
+    font-size:40px;
+    color:rgb(255, 255, 255);
+}
+.returnButton{
+    position:fixed;
+    z-index:2;
+    text-decoration:none;
+    font-size:40px;
+    color:rgb(255, 255, 255);
+    margin:0px;
+}
+.objetosTitle{
+    font-size:100px;
+    margin:100px;
+}
+.objetosLinks{
+    margin:0 auto;
+    width:60%;
+    display:Flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+.objetosLink{
+    width:780px;
+    height:350px;
+    color:white;
+    font-size:60px;
+    padding-left:40px;
+    text-decoration:none;
+    display:flex;
+    justify-content:left;
+    align-items:center;
+    margin-bottom:30px;
+    transition:1s;
+    margin-right:30px;
+}
+.objetosLink:hover{
+    transform:scale(0.95);
+}
+.exoticos{
+    background:url(exoticosBG.jpg) center/cover no-repeat;
+    margin-bottom:200px;
+}
+.tecnologia{
+    background:url(tecnologiaBG.webp) center/cover no-repeat;
+}
+.minerales{
+    background:url(mineralesBG.jpg) center/cover no-repeat;
+}
+.herramientas{
+    background:url(herramientas.webp) center/cover no-repeat;
+}
+.vehiculos{
+    background:url(vehiculos.jpg) center/cover no-repeat;
+}
+.mineralesBody{
+    background:rgba(0, 0, 0, 0.897);
+}
+.mineralesTitle{
+    margin: 50px 0 ;
+    text-align:Center;
+    font-size:100px;
+}
+.mineralesList{
+ display:flex;
+ flex-wrap:wrap;
+ justify-content:space-between;
+}
+.mineralUbication{
+    margin:20px 0;
+    font-size:25px;
+}
+.mineral{
+     background:rgba(2, 114, 243, 0.849);
+    margin:100px 100px;
+    padding:60px;
+    color:White;
+    display:flex;
+    height:10%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    width:20%;
+}
+.mineral:nth-of-type(even){
+    background:rgba(255, 166, 0, 0.59);
+}
+.mineralPicture{
+    width:150px;
+    height:150px;
+}
+.mineralName{
+    font-size:40px;
+}
+.herramientasTitle{
+    margin: 50px 0 ;
+    text-align:Center;
+    font-size:100px;
+}
+.herramienta{
+    background:rgba(18, 19, 20, 0.849);
+    margin:100px 100px;
+    padding:60px;
+    color:White;
+    display:flex;
+    height:10%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align:center;
+    width:20%; 
+}
+.herramientasImg{
+    width:150px;
+    height:150px; 
+    margin: 0 auto;
+}
+.infoDesc{
+    margin:30px 0;
+}

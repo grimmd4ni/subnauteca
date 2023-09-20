@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Days+One&family=Roboto:wght@300;400;700;900&display=swap');
+*{
+    font-family: 'Days One', sans-serif;
+    margin:0;
+    padding:0;
+    font-size:30px;
+    color:white;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.returnButton{
+    position:fixed;
+    z-index:2;
+    text-decoration:none;
+    font-size:40px;
+    color:white;
+    margin:20px;
+}
+.mapaName{
+    font-size:150px;
+}
+.info{
+    display:flex;
+    width:40%;
+    margin:0 auto;
+    justify-content:space-between;
+}
+.algasDeSangre{
+    width:100%;
+    height:100vh;
+    background: url(mapeadoBG/algasDeSangre.png) center/cover no-repeat;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:Center;
+}
+.Bulbos{
+    width:100%;
+    height:100vh;
+    background: url(mapeadoBG/bulbos.webp) center/cover no-repeat;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:Center;
+}
+.CampoDeRiscos{
+    width:100%;
+    height:100vh;
+    background: url(mapeadoBG/campoDeRiscos.webp) center/cover no-repeat;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:Center;
+}
+.ZonaDeAccidente{
+    width:100%;
+    height:100vh;
+    background: url(mapeadoBG/zonaDeAccidente.png) center/cover no-repeat;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:Center;
+}
+.Crater{
+    width:100%;
+    height:100vh;
+    background: url(mapeadoBG/crater.png) center/cover no-repeat;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:Center;
+}
+.Dunas{
+    width:100%;
+    height:100vh;
+    background: url(mapeadoBG/dunas.webp) center/cover no-repeat;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:Center;
+}
+.GranArrefice{
+    width:100%;
+    height:100vh;
+    background: url(mapeadoBG/granArrecife.webp) center/cover no-repeat;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:Center;
+}
+.MesetaHerbacea{
+    width:100%;
+    height:100vh;
+    background: url(mapeadoBG/mesetaHerbacea.png) center/cover no-repeat;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:Center;
+}
+.Algas{
+    width:100%;
+    height:100vh;
+    background: url(mapeadoBG/bosqueDeAlga.webp) center/cover no-repeat;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:Center;
+}
+.Montañas{
+    width:100%;
+    height:100vh;
+    background: url(mapeadoBG/montañas.png) center/cover no-repeat;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:Center;
+}
+.Setas{
+    width:100%;
+    height:100vh;
+    background: url(mapeadoBG/bosqueDeSetas.webp) center/cover no-repeat;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:Center;
+}
+.Bajios{
+    width:100%;
+    height:100vh;
+    background: url(mapeadoBG/bajios.png) center/cover no-repeat;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:Center;
+}
+.Caminantes{
+    width:100%;
+    height:100vh;
+    background: url(mapeadoBG/caminantes.png) center/cover no-repeat;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:Center;
+}
+.IslasSubterraneas{
+    width:100%;
+    height:100vh;
+    background: url(mapeadoBG/islasSubacuatica.png) center/cover no-repeat;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:Center;
+}
+.IslaFlotante{
+    width:100%;
+    height:100vh;
+    background: url(mapeadoBG/islaFlotante.webp) center/cover no-repeat;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:Center;
+}
+.IslaMontañosa{
+    width:100%;
+    height:100vh;
+    background: url(mapeadoBG/islaMontañosa.png) center/cover no-repeat;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:Center;
+}

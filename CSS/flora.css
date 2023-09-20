@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Days+One&family=Roboto:wght@300;400;700;900&display=swap');
+*{
+    font-family: 'Days One', sans-serif;
+    margin:0;
+    padding:0;
+    cursor:default;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.returnButton{
+    position:fixed;
+    z-index:2;
+    text-decoration:none;
+    font-size:40px;
+    color:white;
+    margin-bottom:35%;
+}
+.floraMain{
+    display:flex;
+    background: rgba(0, 0, 0, 0.871);
+    width:100%;
+}
+.floraFlecha{
+    text-decoration:none;
+    color:white;
+    font-size:30px;
+}
+.floraFlechas{
+    width:10%;
+    background: rgba(0, 0, 0, 0.826);
+    height:100vh;
+    position:fixed;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-around;
+    
+}
+.info{
+    display:flex;
+    flex-direction:column;
+    
+}
+
+.floraDataName{
+    position:absolute;
+    top:0.5%;
+    left:50%;
+    transform:translateX(-50%);
+    font-size:50px;
+    color:white;
+}
+.floraDatasContain{
+    width:80%;
+    margin-left:450px;
+}
+.floraTitle{
+    font-size:150px;
+    color:white;
+    text-align:center;
+    margin-left:70px;
+}
+.recolectables{
+    display:Flex;
+    width:100%;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    padding:50px;
+    position:relative;
+}
+.noRecolectable{
+    display:Flex;
+    width:100%;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    padding:50px;
+    position:relative;
+}
+.peligroso{
+    display:Flex;
+    width:100%;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    padding:50px;
+    position:relative;
+}
+img{
+    height:43%;
+    width:43%;
+}
+.floraData{
+    background:rgba(2, 114, 243, 0.849);
+    margin:100px 100px;
+    padding:60px;
+    color:White;
+    display:flex;
+    height:600px;
+    width:500px;
+}
+.floraData:nth-of-type(even){
+    background:rgba(255, 166, 0, 0.702);
+}
+.floraName{
+    font-size:30px;
+    margin-bottom:30px;
+}
+.floraText{
+    font-size:25px;
+    margin-bottom:20px;
+}
+.hv{
+    height:800px;
+}

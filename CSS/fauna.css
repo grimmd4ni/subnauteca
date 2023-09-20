@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Days+One&family=Roboto:wght@300;400;700;900&display=swap');
+*{
+    font-family: 'Days One', sans-serif;
+    margin:0;
+    padding:0;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.headerFauna{
+    background:url(headerBGfauna.jpg) center/cover no-repeat;
+    display:flex;
+    flex-direction:column-reverse;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+    color:white;
+}
+.faunaTitle{
+    margin-top:50px;
+    font-size:80px;
+    text-align:center;
+    order:1;
+}
+.headerText{
+    margin:30px;
+}
+.options{
+    text-decoration:none;
+    color:rgb(99, 99, 99);
+}
+.faunaData{
+    height:70vh;
+}
+.faunaOpciones{
+    height:100%;
+    width:55%;
+    margin:0 auto;
+    padding:50px; 
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+.faunaOpcion{
+    margin:20px 20px;
+    width:780px;
+    height:400px;
+    background:blue;
+    color:white;
+    font-size:60px;
+    padding-left:40px;
+    text-decoration:none;
+    display:flex;
+    justify-content:left;
+    align-items:center;
+    margin-bottom:50px;
+    transition:1s;
+}
+.faunaOpcion:hover{
+    transform:scale(0.9);
+}
+.EE{
+    margin:0 auto;
+    background:url(extintasBG.webp) center/cover no-repeat;
+}
+.P{
+    background:url(pecesBG.jpg) center/cover no-repeat;
+}
+.L{
+    background:url(leviathanBG.webp) center/cover no-repeat;
+}
+.especiesExtintas{
+    display:flex;
+    flex-direction:column;
+}
+.especieExtinta{
+    width:100%;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:white;
+}
+.fosil{
+    display:flex;
+    justify-content:space-between;
+    width:50%;
+    margin:0 auto;
+    text-align:center;
+}
+.especiesTitle{
+    margin-bottom:50px;
+    font-size:150px;
+}
+.E{
+    background:url(especiesBG/esqueleto\ gigantesco.jpeg) 50%100%/cover no-repeat;
+}
+.F{
+    background:url(especiesBG/fosil\ gigantesco.jpg)center/cover no-repeat;
+}
+.R{
+    background:url(especiesBG/theta.jpg) center/cover no-repeat;
+}
+.fosil p{
+    font-size:50px;
+}
+.segador{
+    background: url(leviathanBG/reaper.jpg) center/cover no-repeat;
+}
+.fantasma{
+    background: url(leviathanBG/ghost.jpg) center/cover no-repeat;
+}
+.dragon{
+    background: url(leviathanBG/dragon.jpg) center/cover no-repeat;
+}
+.emperador{
+    background: url(leviathanBG/headerBGfauna.jpg) center/cover no-repeat;
+}
+.caminante{
+    background: url(leviathanBG/Concept_Art-Caminante_Marino.webp) top/cover no-repeat;
+}
+.portarrecife{
+    background: url(leviathanBG/portarrecife.webp) center/cover no-repeat;
+}
+.leviathan{
+    width:100%;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:white;
+}
+.leviathanTitle{
+    margin-bottom:50px;
+    font-size:150px;
+}
+.leviathanData p{
+    font-size:50px;
+}
+.leviathanData{
+    width:60%;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+    text-align:center;
+}
+.leviathanes{
+    flex-direction:column;
+    display:flex;
+}
+.fauna{
+    display:Flex;
+    flex-direction:column;
+    width:450px;;
+    height:500px;
+    padding:80px;
+    margin-right:100px;
+    background:#000000a5;
+    color:white;
+    margin: 100px 0;
+    border-radius:50px;
+    text-align:Center;
+}
+.carnivoros{
+    display:flex;
+    margin: 200px auto;
+    width:60%;
+    flex-wrap:wrap;
+    position:relative;
+    justify-content:space-between;
+}
+.herbivoros{
+    display:flex;
+    margin: 200px auto;
+    width:60%;
+    flex-wrap:wrap;
+    position:relative;
+    justify-content:space-between;
+}
+.CarroñerosParasitos{
+    display:flex;
+    margin: 200px auto;
+    width:60%;
+    flex-wrap:wrap;
+    position:relative;
+    justify-content:space-between;
+}
+.peces{
+    display:flex;
+    flex-direction:column;
+    width:100vw;
+}
+.pecesTitle{
+    position:absolute;
+    left:50%;
+    top:-3%;
+    transform:translateX(-50%);
+    font-size:80px;
+    width:100vw;
+    height:300px;
+    text-align:center;
+}
+.faunaCar{
+    background:rgba(0, 0, 0, 0.593);
+    display:Flex;
+    flex-direction:column;
+    width:450px;;
+    height:500px;
+    padding:80px;
+    margin-right:100px;
+    color:white;
+    margin: 100px 0;
+    border-radius:50px;
+    text-align:Center;
+    border:10px solid rgba(207, 25, 25, 0.593);
+}
+.faunaHer{
+    background:rgba(0, 0, 0, 0.593);
+    display:Flex;
+    flex-direction:column;
+    width:450px;;
+    height:500px;
+    padding:80px;
+    margin-right:100px;
+    color:white;
+    margin: 100px 0;
+    border-radius:50px;
+    text-align:Center;
+    border:10px solid rgba(13, 114, 13, 0.579);
+}
+.faunaPar{
+    background:rgba(0, 0, 0, 0.593);
+    display:Flex;
+    flex-direction:column;
+    width:450px;;
+    height:500px;
+    padding:80px;
+    margin-right:100px;
+    color:white;
+    margin: 100px 0;
+    border-radius:50px;
+    text-align:Center;
+    border:10px solid rgba(240, 57, 149, 0.615);
+}
+.car{
+    color:rgba(207, 25, 25, 0.593);
+}
+.her{
+    color:rgba(13, 114, 13, 0.579);
+}
+.par{
+    color:rgba(240, 57, 149, 0.615);
+}
+.pezTitle{
+    color:rgb(10, 198, 255);
+}
+body{
+    background:#000000e9;
+}
+.returnButton{
+    position:fixed;
+    z-index:2;
+    text-decoration:none;
+    font-size:40px;
+    color:white;
+    margin:20px;
+}
+img{
+    width:450px;;
+    height:300px;
+    margin:auto;
+    border-radius:30px;
+}
+.curvador{
+    height:620px;
+}
+.aerosaco{
+    height:700px;
+}
+p{
+    font-size:25px;
+}
+.mordedor{
+    height:600px;
+}
+.tiburonOseo{
+    height:670px;
+}
+.mesmer{
+    height:600px;
+}
+.curvador{
+    height:950px;
+}
+.reptilDeLava{
+    height:600px;
+}
+.crustapodo{
+    height:600px;
+}
+.boomerang{
+    height:1200px;
+}
+.pezMonada{
+    height:800px;
+}
+.veoveo{
+    height:800px;
+}
+.pezGarry{
+    height:800px;
+}
+.pezHueco{
+    height:800px;
+}
+.aropez{
+    height:870px;
+}
+.miron{
+    height:800px;
+}
+.reginald{
+    height:850px;
+}
+.pezPala{
+    height:800px;
+}
+.pezEspina{
+    height:600px;
+}
+.sangrijuela{
+    height:700px;
+}
+.reptadorDeSangre{
+    height:600px;
+}
+.reptadorDeCuevas{
+    height:800px;
+}
+.flotador{
+    height:600px;
+}
+.rocolarva{
+    height:600px;
+}
+.lanzadera{
+    height:900px;
+}

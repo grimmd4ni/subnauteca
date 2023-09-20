@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Days+One&family=Roboto:wght@300;400;700;900&display=swap');
+*{
+    font-family:'Days One', sans-serif;
+    margin:0;
+    padding:0;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.returnButton{
+    position:fixed;
+    z-index:2;
+    text-decoration:none;
+    font-size:40px;
+    color:white;
+    margin-bottom:35%;
+    margin:20px;
+}
+.headerTitle{
+    font-size:150px ;
+    text-align:center;
+}
+.popUp{
+    padding:50px;
+    width:1100px;
+    height:600px;
+    border-radius:40px;
+    border:none;
+    background: rgb(40, 36, 36); ;
+    margin:10% auto;
+    color:White;
+    font-size:27px;
+    cursor:default;
+    z-index:-1;
+}
+.alertTitle{
+    font-size:80px;
+}
+.cerrar{
+    font-size:60px;
+    text-decoration:none;
+    margin-top:20px;
+    color:orange;
+}
+.popUp::backdrop{
+    background:rgba(0,0,0,0.55);
+}
+.sub{
+    color:orange;
+}
+.nauteca{
+    color:rgb(7, 218, 250);
+}
+.mainHeaderTitle{
+    display:flex;
+    flex-direction:column;
+    height:100vh;
+    width:60%;
+    color:rgb(7, 218, 250);
+}
+.mainHeader{
+    display:flex;
+    height:100vh;
+    width:100%;
+    background: rgba(0, 0, 0, 0.871);
+    color:rgb(7, 218, 250);
+    border-bottom:20px solid rgba(0, 0, 0, 0.7);
+}
+.miron{
+    width:1500px;
+    height:1000px;
+}
+.main{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:100%;
+    position:Relative;
+}
+.options{
+    text-align:center;
+    font-size:40px;
+    margin:400px auto;
+    color:blue;
+    background:orange;
+    text-decoration: none;
+    padding:30px 70px;
+    cursor:pointer;
+    transition:1s;
+}
+.comentarios{
+    font-size:40px;
+    color:white;
+    margin-left:20px;
+    margin-top:80px;
+}
+.options:hover{
+    transform:scale(0.95);
+}
+.alert{
+    color:yellow;
+}
+.mainText{
+    text-align:center;
+    font-size:30px;
+}
+.mainAlert{
+    text-align:center;
+    font-size:25px;
+    margin-top:100px;
+    color:yellow;
+}
+.mainSecond{
+    width:100%;
+    background: rgba(0, 0, 0, 0.871);
+}
+.mainOptions{
+    margin:0 auto;
+    height:100%;
+    width:50%;
+    padding:80px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+.mainButton{
+    width:780px;
+    height:350px;
+    background:blue;
+    color:white;
+    font-size:60px;
+    padding-left:40px;
+    text-decoration:none;
+    display:flex;
+    justify-content:left;
+    align-items:center;
+    margin-bottom:50px;
+    transition:1s;
+}
+.mainButton:hover{
+    transform:scale(0.95);
+}
+.mapeado{
+    margin:0 auto;
+    background: url(mapeado.jpg) center/cover no-repeat;
+}
+.fauna{
+    background: url(fauna.jpg) center/cover no-repeat;
+}
+.objetos{
+    background: url(objetos.jpeg) center/cover no-repeat;
+}
+.construcciones{
+    background: url(construcciones.jpg) center/cover no-repeat;
+    margin:0 auto;
+}
+.flora{
+    background: url(flora.jpg) center/cover no-repeat;
+}
+footer{
+    width:100vw;
+    height:50vh;
+    background: rgba(0, 0, 0, 0.871);
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.bodyEn{
+    height:100vh;
+}
+textarea{
+    
+    border:none;
+    background: rgba(0, 0, 0, 0.358);
+    padding:6px 11px;
+    height:400px;
+    width:600px;
+    border-radius:6px 6px 0px 0px;
+    border-bottom:1px solid #016BA8;
+    transition:all 2s;
+    margin-top:100px;
+    resize:none;
+    color:white;
+    text-align:center;
+    font-size:20px;
+}
+.button{
+    background:#016ba8;
+    color:#fff;
+    padding:7px;
+    border:none;
+    cursor:pointer;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    box-shadow:0 1px 5px 0(rgba(0,0,0,0.22));
+    transition:2s all;
+    font-size:9px;
+    border-radius:4px;
+}
+.form{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.commentTitle{
+    color:white;
+    font-size:40px;
+}
+.comment{
+    color:rgb(255, 255, 255);
+    margin-bottom:50px;
+}
+.commentTitle{
+    margin-bottom:20px;
+}
+#comment-input{
+    height:400px;
+}
+#comments-container{
+    overflow-y: scroll;
+    max-height:400px;
+    width:700px;
+}

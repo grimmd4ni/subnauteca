@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="main">
+        <div class="mainHeader">
+            <div class="mainHeaderTitle">
+                <h1 class="headerTitle"><span class="sub">SUB</span><span class="nauteca">NAUTECA</span></h1>
+                <h2 class="mainText">La Enciclopedia Sobre El Mundo De Subnautica</h2>
+                <button class="options" id="btn-abrir-modal">Ver Datos:</button> 
+                <p class="comentarios">Comentarios ⇩</p>
+            </div>
+            <img src="miron.webp" alt="" class="miron">
+        </div>
+        <dialog close class="popUp" id="modal">
+            <h1 class="alertTitle">Aviso:</h1>
+            <h2 class="alertText">En esta web encontraras spoilers sobre el juego, si no has completado el juego,<br> te recomendamos que lo juegues para poder disfrutar de la experiencia completa.<br>A partir de aqui, todo lo que veas sera por decision propia</h2>
+            <a class="cerrar" href="enciclopedia.html" id="btn-cerrar-modal">Continuar</a>
+        </dialog>
+        
+        <footer>
+            <div id="comment-section">
+                <h3 class="commentTitle">Comentarios:</h3>
+                <div id="comments-container"></div>
+            </div>
+            <div>
+                <textarea id="comment-input" placeholder="Descirbe tu experiencia con la web"></textarea><br>
+                <button id="submit-button" type="submit" class="button">Enviar comentario</button>
+            </div>
+        </footer>
+    </main>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
