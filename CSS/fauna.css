@@ -9,7 +9,7 @@ body::-webkit-scrollbar{
 }
 
 .headerFauna{
-    background:url(headerBGfauna.jpg) center/cover no-repeat;
+    background:url(anotherPICS/headerBGfauna.jpg) center/cover no-repeat;
     display:flex;
     flex-direction:column-reverse;
     align-items:center;
@@ -62,13 +62,13 @@ body::-webkit-scrollbar{
 }
 .EE{
     margin:0 auto;
-    background:url(extintasBG.webp) center/cover no-repeat;
+    background:url(anotherPICS/extintasBG.webp) center/cover no-repeat;
 }
 .P{
-    background:url(pecesBG.jpg) center/cover no-repeat;
+    background:url(anotherPICS/pecesBG.jpg) center/cover no-repeat;
 }
 .L{
-    background:url(leviathanBG.webp) center/cover no-repeat;
+    background:url(anotherPICS/leviathanBG.webp) center/cover no-repeat;
 }
 .especiesExtintas{
     display:flex;

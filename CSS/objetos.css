@@ -68,20 +68,20 @@ body::-webkit-scrollbar{
     transform:scale(0.95);
 }
 .exoticos{
-    background:url(exoticosBG.jpg) center/cover no-repeat;
+    background:url(anotherPICS/exoticosBG.jpg) center/cover no-repeat;
     margin-bottom:200px;
 }
 .tecnologia{
-    background:url(tecnologiaBG.webp) center/cover no-repeat;
+    background:url(anotherPICS/tecnologiaBG.webp) center/cover no-repeat;
 }
 .minerales{
-    background:url(mineralesBG.jpg) center/cover no-repeat;
+    background:url(anotherPICS/mineralesBG.jpg) center/cover no-repeat;
 }
 .herramientas{
-    background:url(herramientas.webp) center/cover no-repeat;
+    background:url(anotherPICS/herramientas.webp) center/cover no-repeat;
 }
 .vehiculos{
-    background:url(vehiculos.jpg) center/cover no-repeat;
+    background:url(anotherPICS/vehiculos.jpg) center/cover no-repeat;
 }
 .mineralesBody{
     background:rgba(0, 0, 0, 0.897);

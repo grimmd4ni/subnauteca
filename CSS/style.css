@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Days+One&family=Roboto:wght@300;400;700;900&display=swap');
 *{
     font-family:'Days One', sans-serif;
+    box-sizing: border-box;
     margin:0;
     padding:0;
 }
@@ -113,11 +114,12 @@ body::-webkit-scrollbar{
 .mainSecond{
     width:100%;
     background: rgba(0, 0, 0, 0.871);
+    height:100vh;
 }
 .mainOptions{
     margin:0 auto;
     height:100%;
-    width:50%;
+    width:55%;
     padding:80px;
     display:flex;
     flex-wrap:wrap;
@@ -153,21 +155,20 @@ body::-webkit-scrollbar{
     transform:scale(0.95);
 }
 .mapeado{
-    margin:0 auto;
-    background: url(mapeado.jpg) center/cover no-repeat;
+    background: url(anotherPICS/mapeado.jpg) center/cover no-repeat;
 }
 .fauna{
-    background: url(fauna.jpg) center/cover no-repeat;
+    background: url(anotherPICS/fauna.jpg) center/cover no-repeat;
 }
 .objetos{
-    background: url(objetos.jpeg) center/cover no-repeat;
+    background: url(anotherPICS/objetos.jpeg) center/cover no-repeat;
 }
 .construcciones{
-    background: url(construcciones.jpg) center/cover no-repeat;
+    background: url(anotherPICS/construcciones.jpg) center/cover no-repeat;
     margin:0 auto;
 }
 .flora{
-    background: url(flora.jpg) center/cover no-repeat;
+    background: url(anotherPICS/flora.jpg) center/cover no-repeat;
 }
 footer{
     width:100vw;
@@ -176,9 +177,6 @@ footer{
     display:flex;
     justify-content:space-around;
     align-items:center;
-}
-.bodyEn{
-    height:100vh;
 }
 textarea{
     

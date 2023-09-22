@@ -21,3 +21,22 @@ btnAbrirModal.addEventListener("click",()=>{
 btnCerrarModal.addEventListener("click",()=>{
     modal.close();
 })
+// const sr = ScrollReveal({
+//   distance:"150px", 
+//   duration:1500,
+//   reset:true
+// })
+// sr.reveal(".headerFauna",{delay:500,origin:"right"})
+const sr = ScrollReveal({
+  distance: '165px',
+  duration: 750,
+  reset:false
+})
+const sr2 = ScrollReveal({
+  distance: '605px',
+  duration: 1600,
+  reset:false
+})
+sr.reveal('footer',{delay:100, origin:'left'});
+sr2.reveal('.miron',{delay:700, origin:'right'});
+sr.reveal('.faunaOpciones',{delay:100, origin:'bottom'});
