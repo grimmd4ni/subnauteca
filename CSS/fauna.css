@@ -7,6 +7,9 @@
 body::-webkit-scrollbar{
     display: none;
 }
+html{
+    scroll-behavior:smooth;
+}
 
 .headerFauna{
     background:url(anotherPICS/headerBGfauna.jpg) center/cover no-repeat;
@@ -95,13 +98,13 @@ body::-webkit-scrollbar{
     font-size:150px;
 }
 .E{
-    background:url(especiesBG/esqueleto\ gigantesco.jpeg) 50%100%/cover no-repeat;
+    background:url(anotherPICS/esqueleto_gigantesco.jpeg) 50%100%/cover no-repeat;
 }
 .F{
-    background:url(especiesBG/fosil\ gigantesco.jpg)center/cover no-repeat;
+    background:url(anotherPICS/fosil_gigantesco.jpg)center/cover no-repeat;
 }
 .R{
-    background:url(especiesBG/theta.jpg) center/cover no-repeat;
+    background:url(anotherPICS/theta.jpg) center/cover no-repeat;
 }
 .fosil p{
     font-size:50px;
@@ -202,6 +205,39 @@ body::-webkit-scrollbar{
     width:100vw;
     height:300px;
     text-align:center;
+}
+.pecesFlecha{
+    text-decoration:none;
+    color:white;
+    font-size:30px;
+    text-align:center;
+}
+.pecesFlecha:hover{
+    cursor:pointer;
+}
+.pecesFlechas{
+    width:8%;
+    padding:5px;
+    background: rgba(0, 0, 0, 0.492);
+    height:80vh;
+    position:fixed;
+    top:50%;
+    transform:translateY(-50%);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-around;
+    border-radius:0 70px 70px 0;
+}
+
+.C{
+    color:rgba(248, 11, 11, 0.802);
+}
+.H{
+    color:rgba(27, 185, 27, 0.862);
+}
+.CP{
+    color:rgba(243, 18, 130, 0.841);
 }
 .faunaCar{
     background:rgba(0, 0, 0, 0.593);

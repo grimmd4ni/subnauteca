@@ -30,13 +30,13 @@ btnCerrarModal.addEventListener("click",()=>{
 const sr = ScrollReveal({
   distance: '165px',
   duration: 750,
-  reset:false
+  reset:true
 })
 const sr2 = ScrollReveal({
   distance: '605px',
   duration: 1600,
   reset:false
 })
-sr.reveal('footer',{delay:100, origin:'left'});
+// sr.reveal('footer',{delay:100, origin:'bottom'});
 sr2.reveal('.miron',{delay:700, origin:'right'});
 sr.reveal('.faunaOpciones',{delay:100, origin:'bottom'});

@@ -5,6 +5,9 @@
     padding:0;
     cursor:default;
 }
+html{
+    scroll-behavior:smooth;
+}
 body::-webkit-scrollbar{
     display: none;
 }
@@ -15,27 +18,39 @@ body::-webkit-scrollbar{
     font-size:40px;
     color:white;
     margin-bottom:35%;
+    left:1%;
+    top:1.5%;
+}
+.returnButton:hover{
+    cursor:pointer;
 }
 .floraMain{
     display:flex;
-    background: rgba(0, 0, 0, 0.871);
+    background: rgba(0, 0, 0, 0.878);
     width:100%;
 }
 .floraFlecha{
     text-decoration:none;
     color:white;
     font-size:30px;
+    text-align:center;
+}
+.floraFlecha:hover{
+    cursor:pointer;
 }
 .floraFlechas{
-    width:10%;
-    background: rgba(0, 0, 0, 0.826);
-    height:100vh;
+    width:8%;
+    padding:5px;
+    background: rgba(0, 0, 0, 0.492);
+    height:80vh;
     position:fixed;
+    top:50%;
+    transform:translateY(-50%);
     display:flex;
     flex-direction:column;
     align-items:center;
     justify-content:space-around;
-    
+    border-radius:0 70px 70px 0;
 }
 .info{
     display:flex;
@@ -97,6 +112,10 @@ img{
     display:flex;
     height:600px;
     width:500px;
+    transition:0.5s;
+}
+.floraData:hover{
+    transform:scale(0.95);
 }
 .floraData:nth-of-type(even){
     background:rgba(255, 166, 0, 0.702);
